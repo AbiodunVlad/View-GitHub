@@ -24,7 +24,7 @@ function App() {
     <div>
       {items.map((item) => {
         return (
-          <div className="com=sm-6 col-md-4 v my-2">
+          <div className="App w-100 min-vh-10 justify-content-center align-items-center d-flex flex-column">
             <div className="card shadow-sm w-100" style={{ minHeight: 225 }}>
               <div className="card-body">
                 <h5 className="card-title text-center h2">{item.name}</h5>
